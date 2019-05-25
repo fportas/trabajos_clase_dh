@@ -1,0 +1,157 @@
+@import url('normalize.css');
+
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500');
+
+
+@import url("http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css");
+
+* {
+	box-sizing: border-box;
+  color: inherit;
+}
+
+body {
+  font-family: 'Roboto', sans-serif; /*se ponen dos orque si se rompe la roboto hay una segunda opcion*/
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+	color: inherit;
+}
+
+ul, ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+	width: 100%;
+	margin: auto;
+}
+
+.toggle-nav {
+	display: block;
+	background-color: black;
+	width: 50px;
+	padding: 10px;
+	text-align: center;
+	margin: 5px 20px 5px auto;
+	color: #fff;
+	border-radius: 3px;
+	font-size: 2em;
+}
+
+header {
+  /* background-color: rgb(65, 71, 77); */
+  background-image: url(../img/prism.png);
+	position: fixed;
+	z-index: 10;
+	width: 100%;
+}
+
+.main-nav {
+	display: none;
+}
+
+.main-nav a, .main-footer a {
+	color: #fff;
+	text-align: center;
+	padding: 10px 0;
+	display: block;
+	text-transform: uppercase;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+
+
+
+
+.presentacion {
+  background-image: url(../img/present.png);
+  height: 700px;
+  width: auto;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+	background-size: contain;
+	background-repeat: cover;
+}
+
+.presentacion h2 {
+  justify-content: center;
+  color: white;
+  font-size: 6em;
+  font-weight: 900;
+  text-shadow: 3px 3px 10px rgba(171, 178, 185, 0.8);
+	padding: 5%;
+}
+
+.sect {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sect img {
+  width: 50%;
+  height: 600px;
+}
+
+.sect article {
+  width: 50%;
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1.5em;
+  color: white;
+  text-shadow: 3px 3px 10px rgba(0, 5, 10, 0.9);
+  background-color: rgb(65, 71, 77);
+	transition: 2000ms;
+}
+
+#displ-procesor {
+	background-image: url(../img/display.png);
+}
+
+#displ-photo {
+	background-image: url(../img/photo.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+p:hover {
+	text-shadow: 4px, 4px, 12px, red;
+	font-family: helvetica;
+
+}
+
+
+@media (min-width: 900px) {
+	.main-nav li {
+	  display: inline-block;
+	}
+
+	.main-nav a {
+	 width: auto;
+	 font-size: 1.3em;
+	 padding: 5px;
+	 color: rgb(256, 256, 256);
+	 margin: 5px;
+	 text-align: right;
+	}
+
+
+}

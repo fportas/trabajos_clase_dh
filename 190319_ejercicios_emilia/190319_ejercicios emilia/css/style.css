@@ -1,0 +1,135 @@
+@import "./normalize.css";
+
+a {
+  text-decoration: none;
+  color: #A4A4A4;
+}
+
+.li-index {
+  list-style: none;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.li-about {
+  list-style: none;
+  font-family: 'Open Sans', sans-serif;
+  display: inline-block;
+  text-align: right;
+}
+
+.li-about {
+  list-style: none;
+  font-family: 'Open Sans', sans-serif;
+  display: inline-block;
+  text-align: right;
+}
+
+.about-ul{
+  position: right top;
+  text-align: right;
+  background-color: rgba(255, 255, 255, 0.44);
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.music-ul{
+  position: right top;
+  text-align: right;
+  background-color: rgba(255, 255, 255, 0.44);
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+
+.idindex-home {
+  background-image: url(../img/emilia-home.jpg);
+  background-size: contain;
+  background-position: right center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+}
+
+.about-body {
+  background-image: url(../img/emilia-about.jpg);
+  background-size: contain;
+  background-position: right center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+}
+
+.music-body {
+  background-image: url(../img/emilia-music-top.jpg);
+  background-size: contain;
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+}
+
+
+.icono {
+  max-width: 20px;
+  filter: grayscale(1);
+}
+
+.icono-about {
+  padding-right: 3px;
+  max-width: 20px;
+  filter: grayscale(1);
+  float: right;
+}
+
+.twist {
+  background-color: rgba(255, 255, 255, 0.44);
+  font-family: 'Raleway', sans-serif;
+  font-size: 60px;
+  margin: 0;
+  padding: 10px;
+}
+
+.emili {
+  font-family:'Work Sans', sans-serif;
+  font-size: 30px;
+  padding: 10px;
+}
+
+.logos{text-align: right;}
+
+.emili-about {
+  font-family:'Work Sans', sans-serif;
+  font-size: 80px;
+  padding: 10px;
+  font-weight: 800;
+}
+
+.music-music {
+  font-family:'Work Sans', sans-serif;
+  font-size: 80px;
+  padding: 10px;
+  font-weight: 800;
+  margin-top: 50px;
+}
+
+.cita{
+  font-weight: 400;
+  font-family: 'Open Sans', sans-serif;
+  padding-left: 10px;
+  color: lightblue;
+  font-size: 25px;
+}
+
+.dijo{
+  font-family: 'Open Sans', sans-serif;
+  padding-left: 10px;
+  color: lightblue;
+}
+
+.espacio{
+  padding-top: 50px;
+}
+
+.video-musica{
+  margin-left: 20px;
+}

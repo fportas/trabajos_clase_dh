@@ -1,0 +1,232 @@
+@import url('normalize.css');
+
+*{
+  box-sizing: border-box;
+}
+
+ul, ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+	width: 100%;
+}
+
+
+
+.main-header {
+  width: 100vw;
+  height: 20vh;
+  background-color: lightblue;
+
+}
+
+h2 {
+  font-size: 1.75em;
+}
+
+
+p {
+  font-size: 0.8125em;
+}
+
+strong {
+  font-size: 0.9375em;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  border: 2px solid blue;
+  overflow: hidden;
+}
+
+.a, .b, .c {
+  float: left;
+}
+
+.a {
+  width: 20.83%;
+  border: 1px solid green;
+}
+
+.b {
+  width: 66.67%;
+  margin-left: 2.08%;
+  margin-right: 2.08%;
+  border: 1px solid red;
+}
+
+.c {
+  width: 8.33%;
+  border: 1px solid grey;
+}
+
+/* hay que tener en cuenta la cascada porque eso lee el orden */
+
+@media (max-width: 900px) {
+  .container {
+    width: 95%;
+    padding: 2.22%;
+  }
+
+  .a {
+    width: 40%;
+  }
+
+  .b {
+    width: 55%;
+    margin: 0;
+  }
+
+  .a, .b {
+    float: left;
+  }
+
+  .c {
+    clear: both;
+    width: 100%;
+  }
+
+}
+
+
+
+@media (max-width: 450px) {
+
+
+  .body {
+    font-size: 20.8px;
+  }
+
+
+  .container {
+    width: 100%;
+
+  }
+
+  .a, .b, .c {
+    width: 100%;
+    clear: both;
+  }
+
+}
+
+
+
+/*
+@media (max-width: 575px) {
+	.a, .b {
+		float: left;
+		width: 50%;
+	}
+
+	.c {
+		clear: both;
+	}
+}
+
+@media (max-width: 900px) {
+	.a, .b, .c {
+		width: 33.33%;
+	}
+
+	.c {
+		clear: none;
+		float: left;
+	}
+} */
+
+/* ----------------Prueba dos ----------------------*/
+
+/* @media (min-width: 900px){
+
+  h2 {
+    font-size: 1.75em;
+  }
+
+  p {
+    font-size: 0.8125em;
+  }
+
+  strong {
+    font-size: 0.9375em;
+  }
+
+  .a, .b, .c {
+    float: left;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    border: 2px solid blue;
+    overflow: hidden;
+  }
+
+  .a {
+    width: 20.83%;
+    border: 1px solid green;
+  }
+
+  .b {
+    width: 66.67%;
+    margin-left: 2.08%;
+    margin-right: 2.08%;
+    border: 1px solid red;
+  }
+
+  .c {
+    width: 8.33%;
+    border: 1px solid grey;
+  }
+
+}
+
+
+
+@media (min-width: 450px) {
+
+  .container {
+    width: 95%;
+    padding: 2.22%;
+  }
+
+  .a {
+    width: 40%;
+  }
+
+  .b {
+    width: 55%;
+    margin: 0;
+  }
+
+  .a, .b {
+    float: left;
+  }
+
+  .c {
+    clear: both;
+    width: 100%;
+  }
+
+
+}
+
+@media (max-width: 449px) {
+
+  .a, .b, .c {
+    width: 100%;
+    float: none;
+  }
+
+
+} */

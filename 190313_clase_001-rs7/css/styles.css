@@ -1,0 +1,77 @@
+body {
+  background: grey;
+  font-family: helvetica;
+  font-size: 40px;
+  color: #FFFFFF;
+  margin: 0%;
+  text-shadow: 3px 6px 3px #585858;
+}
+
+h1 {
+  font-size: 200px;
+  margin: 0px;
+}
+
+h2 {
+  padding: 10px;
+  margin: 0px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 28px;
+  max-width: 400px;
+  padding: 10px;
+  margin: 0;
+}
+
+.caja {
+  margin: 0%;
+  padding: 0%;
+  border: 0%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  min-height: 900px;
+}
+
+#fondo1 {
+  background-image: url(../img/rs7_culo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+#fondo2 {
+  background-image: url(../img/rs7_exterior.jpg);
+}
+
+#fondo3 {
+  background-image: url(../img/rs7_exterior2.jpg);
+}
+
+#fondo4 {
+  background-image: url(../img/rs7_exterior3.jpg);
+}
+
+#fondo5 {
+  background-image: url(../img/rs7_interior.jpg);
+}
+
+#fondo6 {
+  background-image: url(../img/rs7_interior2.jpg);
+}
+
+
+.derecha {
+  float: right;
+  text-align: right;
+}
+
+.titulo-derecha {
+  text-align: right;
+}
+
+/* div {
+  overflow: hidden;
+} */

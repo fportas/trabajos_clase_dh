@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<title>Flexbox</title>
+		<link rel="stylesheet" href="css/app.css">
+	</head>
+	<body>
+		<h2>sin flexbox</h2>
+		<div class="container">
+			<div class="box bg-orange">1</div>
+			<div class="box bg-purple">2</div>
+			<div class="box bg-yellow">3</div>
+			<div class="box bg-light-blue">4</div>
+			<div class="box bg-pink">5</div>
+		</div>
+
+		<h2>display: flex;</h2>
+		<div class="container dF">
+			<div class="box bg-orange">1</div>
+			<div class="box bg-purple">2</div>
+			<div class="box bg-yellow">3</div>
+			<div class="box bg-light-blue">4</div>
+			<div class="box bg-pink">5</div>
+			<div class="box bg-orange">6</div>
+			<div class="box bg-purple">7</div>
+		</div>
+
+		<h2>display: flex; flex-wrap: wrap;</h2>
+		<div class="container dF fW">
+			<div class="box bg-orange">1</div>
+			<div class="box bg-purple">2</div>
+			<div class="box bg-yellow">3</div>
+			<div class="box bg-light-blue">4</div>
+			<div class="box bg-pink">5</div>
+			<div class="box bg-orange">6</div>
+			<div class="box bg-purple">7</div>
+		</div>
+
+		<h2>display: flex; flex-wrap: wrap-reverse;</h2>
+		<div class="container dF fWR">
+			<div class="box bg-orange">1</div>
+			<div class="box bg-purple">2</div>
+			<div class="box bg-yellow">3</div>
+			<div class="box bg-light-blue">4</div>
+			<div class="box bg-pink">5</div>
+			<div class="box bg-orange">6</div>
+			<div class="box bg-purple">7</div>
+		</div>
+
+		<h2>display: flex; flex-wrap: wrap; flex-direction: row-reverse;</h2>
+		<div class="container dF fW fdRR">
+			<div class="box bg-orange">1</div>
+			<div class="box bg-purple">2</div>
+			<div class="box bg-yellow">3</div>
+			<div class="box bg-light-blue">4</div>
+			<div class="box bg-pink">5</div>
+			<div class="box bg-orange">6</div>
+			<div class="box bg-purple">7</div>
+		</div>
+
+		<h2>display: flex; flex-wrap: wrap; flex-direction: column;</h2>
+		<div class="container dF fW fdC ">
+			<div class="box bg-orange">1</div>
+			<div class="box bg-purple">2</div>
+			<div class="box bg-yellow">3</div>
+			<div class="box bg-light-blue">4</div>
+			<div class="box bg-pink">5</div>
+			<div class="box bg-orange">6</div>
+			<div class="box bg-purple">7</div>
+		</div>
+
+		<h2>display: flex; flex-wrap: wrap; flex-direction: column-reverse;</h2>
+		<div class="container dF fW fdCR">
+			<div class="box bg-orange">1</div>
+			<div class="box bg-purple">2</div>
+			<div class="box bg-yellow">3</div>
+			<div class="box bg-light-blue">4</div>
+			<div class="box bg-pink">5</div>
+			<div class="box bg-orange">6</div>
+			<div class="box bg-purple">7</div>
+		</div>
+
+		<h2>display: flex; flex-wrap: wrap; justify-content: flex-end;</h2>
+		<div class="container dF fW jcFE">
+			<div class="box bg-orange box-sm">1</div>
+			<div class="box bg-purple box-sm">2</div>
+			<div class="box bg-yellow box-sm">3</div>
+		</div>
+
+		<h2>display: flex; flex-wrap: wrap; justify-content: center;</h2>
+		<div class="container dF fW jcC">
+			<div class="box bg-orange box-sm">1</div>
+			<div class="box bg-purple box-sm">2</div>
+			<div class="box bg-yellow box-sm">3</div>
+		</div>
+
+		<h2>display: flex; flex-wrap: wrap; justify-content: space-between;</h2>
+		<div class="container dF fW jcSB">
+			<div class="box bg-orange box-sm">1</div>
+			<div class="box bg-purple box-sm">2</div>
+			<div class="box bg-yellow box-sm">3</div>
+			<div class="box bg-pink box-sm">4</div>
+		</div>
+
+		<h2>display: flex; flex-wrap: wrap; justify-content: space-around;</h2>
+		<div class="container dF fW jcSA">
+			<div class="box bg-orange box-sm">1</div>
+			<div class="box bg-purple box-sm">2</div>
+			<div class="box bg-yellow box-sm">3</div>
+			<div class="box bg-pink box-sm">4</div>
+		</div>
+
+		<h2>display: flex; flex-wrap: wrap; justify-content: space-around;</h2>
+		<div class="container container-tall dF fW jcSA">
+			<div class="box bg-orange box-sm">1</div>
+			<div class="box bg-purple box-sm">2</div>
+			<div class="box bg-yellow box-sm">3</div>
+			<div class="box bg-pink box-sm">4</div>
+		</div>
+
+		<h2>display: flex; flex-wrap: wrap; justify-content: space-around; align-items: flex-start;</h2>
+		<div class="container container-tall dF fW jcSA aiFS">
+			<div class="box bg-orange box-sm">1</div>
+			<div class="box bg-purple box-sm">2</div>
+			<div class="box bg-yellow box-sm">3</div>
+			<div class="box bg-pink box-sm">4</div>
+		</div>
+
+		<h2>display: flex; flex-wrap: wrap; justify-content: space-around; align-items: center;</h2>
+		<div class="container container-tall dF fW jcSA aiC">
+			<div class="box bg-orange box-sm">1</div>
+			<div class="box bg-purple box-sm">2</div>
+			<div class="box bg-yellow box-sm">3</div>
+			<div class="box bg-pink box-sm">4</div>
+		</div>
+
+		<h2>display: flex; flex-wrap: wrap; justify-content: space-around; align-items: flex-end;</h2>
+		<div class="container container-tall dF fW jcSA aiFE">
+			<div class="box bg-orange box-sm">1</div>
+			<div class="box bg-purple box-sm">2</div>
+			<div class="box bg-yellow box-sm">3</div>
+			<div class="box bg-pink box-sm">4</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,31 @@
+p {
+  font-size: 20px;
+}
+
+.container {
+  width: 900px;
+  background-color: lightgray;
+  height: 100vh;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.sin-box-sizing, .con-box-sizing {
+  width: 300px;
+  background-color: #56DF48;
+  height: 400PX;
+  margin: 20px;
+}
+
+.sin-box-sizing {
+  float: left;
+  padding: 30px; /* 30px para la derecha, izquierda, arriba y abajo */
+  border: solid #600F72 10px; /* 10px para la derecha, izquierda, arriba y abajo */
+}
+
+.con-box-sizing {
+  float: right;
+  padding: 30px;
+  border: solid #600F72 10px;
+  box-sizing: border-box;  /*Prueben de borrar esta propiedad para comparar con la caja de al lado*/
+}

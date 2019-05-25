@@ -1,0 +1,75 @@
+@@import url('normalize.css');
+
+* {
+	box-sizing: border-box;
+  color: inherit;
+}
+
+/* ul, ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.main-header {
+	overflow: hidden;
+	position: fixed;
+}
+
+.container {
+  width: 980px;
+  margin: 0 auto;
+	border: solid 1px blue;
+}
+
+body {
+  background-image: url(../images/bg-2.png);
+}
+
+.main-nav ul li{
+  display: inline-block;
+  float: left;
+}
+
+
+.products-container {
+  overflow: hidden;
+	clear: both;
+}
+
+.product-detail {
+	float: left;
+	position: relative;
+	width: 300px;
+}
+
+
+.product-detail_image {
+	position: absolute;
+	margin: 20px;
+
+}
+
+---------------------- T O M A   D O S ---------------------*/
+
+
+body {
+	background-image: url(../images/bg-2.png);
+}
+
+.main-header {
+	width: 960px;
+	background-color: orange;
+	position: fixed;
+	margin: 0 auto;
+}
+
+.comtainer {
+	margin: 0 auto;
+}

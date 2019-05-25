@@ -1,0 +1,223 @@
+@import url('normalize.css');
+
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500');
+
+
+@import url("http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css");
+
+* {
+	box-sizing: border-box;
+  color: inherit;
+}
+
+body {
+  background-image: url(../images/bg-body.png);
+  font-family: 'Roboto', sans-serif; /*se ponen dos orque si se rompe la roboto hay una segunda opcion*/
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  color: inherit;
+}
+
+ul, ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+	width: 95%;
+	margin: auto;
+}
+
+.logo {
+  border-radius: 100%;
+  width: 50%;
+  /* max-width: 180px; */
+	display: block;
+	margin: 15px auto 30px;
+	box-shadow: 0 0 10px grey;
+}
+
+.toggle-nav {
+	display: block;
+	background-color: black;
+	width: 40px;
+	padding: 10px 0;
+	text-align: center;
+	margin: 0 auto 15px;
+	color: #fff;
+	border-radius: 5px;
+}
+
+.main-nav {
+	display: none;
+}
+
+.main-nav a, .main-footer a {
+	background-color: rgb(71, 71, 74);
+	color: #fff;
+	text-align: center;
+	padding: 10px 0;
+	border-bottom: solid 2px #fff;
+	display: block;
+	text-transform: uppercase;
+}
+/* ------ Por usabilidad los a deben ser
+bastante grandes para que puedas usarlo
+con el dedo que es mas grande*/
+
+.banner {
+	display: none;
+}
+
+.product {
+	margin-top: 30px;
+}
+
+.product h2 {
+	font-size: 1.8em;
+	font-weight: 500;
+}
+
+.product p {
+	font-size: 1.2em;
+	line-height: 1.5em;
+	font-weight: 300;
+}
+
+.product a {
+	background-color: #000;
+	color: #fff;
+	font-size: 1.2em;
+	padding: 0.8em 1em;
+	border-radius: 2px;
+}
+
+.main-footer {
+	margin-top: 30px;
+	background-color: rgb(221, 86, 82);
+	border-radius: 3px 3px 0 0;
+
+}
+
+.main-footer a {
+	background-color: transparent;
+}
+
+/* .container {
+  width: 1180px;
+  margin: 0 auto;
+}
+
+.banner {
+  width: 100%;
+}
+
+.product {
+  width: 380px;
+} */
+
+@media (min-width: 600px) {
+	body {
+		font-size: 13px;
+	}
+
+	.toggle-nav {
+		display: none;
+	}
+
+	.container {
+		width: 100%;
+		max-width: 1200px;
+	}
+
+	.main-nav {
+		overflow: hidden;
+		display: block;
+	}
+
+	.main-nav li {
+		width: 15%;
+		float: left;
+		margin: 0 0.83%;
+	}
+
+	.banner {
+		display: block;
+		margin: 30px 0.83% 0;
+	}
+
+	.product {
+		width: 48.34%;
+		float: left;
+	}
+
+	.vip-products {
+		overflow: hidden;
+	}
+
+	.product,
+	.main-footer {
+		margin-left: 0.83%;
+		margin-right: 0.83%;
+	}
+}
+
+
+@media (min-width: 900px) {
+
+	.toggle-nav {
+		display: none;
+	}
+
+	.container {
+		width: 100%;
+		max-width: 1200px;
+	}
+
+	.logo {
+		max-width: 180px;
+	}
+
+	.main-nav {
+		overflow: hidden;
+		display: block;
+	}
+
+	.main-nav li {
+		width: 15%;
+		float: left;
+		margin: 0 0.83%;
+	}
+
+	.banner {
+		display: block;
+		margin: 30px 0.83% 0;
+	}
+
+	.product {
+		width: 31.66%;
+		float: left;
+	}
+
+	.vip-products {
+		overflow: hidden;
+	}
+
+	.product,
+	.main-footer {
+		margin-left: 0.83%;
+		margin-right: 0.83%;
+	}
+}
+
+/* boton 0.15 */
+/* espacio 0.08 */
