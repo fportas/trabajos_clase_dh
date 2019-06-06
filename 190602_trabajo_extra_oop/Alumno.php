@@ -22,6 +22,10 @@
 			return $this->name;
 		}
 
+		public function getLastName() {
+			return $this->lastName;
+		}
+
     // el geter del apellido
 
 	}
