@@ -1,0 +1,14 @@
+body{
+  background-color: black;
+  /* font-family: 'Press Start 2P', cursive; */
+  font-family: 'VT323', monospace;
+  line-height: 5px;
+  padding: 5px;
+  color: #E67E22;
+}
+div{
+  text-align: center;
+  vertical-align: middle;
+  line-height: 25px;
+  font-size: 1.8em;
+}

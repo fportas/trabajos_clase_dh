@@ -2,7 +2,7 @@
 require_once 'concec.php';
 
 try {
-	$resultado = $base->query("SELECT * from autores"); //corre la consulta y me devuelve un resultado dentro de un objeto hijo pdo
+	$resultado = $base->query("SELECT * from movies"); //corre la consulta y me devuelve un resultado dentro de un objeto hijo pdo
 
 	//equivalente a la línea de arriba pero usando statements
 	// $resultado = $base->prepare("SELECT * from autores");

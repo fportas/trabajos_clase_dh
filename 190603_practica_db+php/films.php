@@ -18,7 +18,7 @@ try {
 	die(); //lo mismo que exit()
 }
 
-$posPeli = $base->query("SELECT genres_id FROM movies WHERE id = 5");
+$posPeli = $base->query("SELECT genre_id FROM movies WHERE id = 5");
 
 
 $genres = $resultado_generos->fetchAll(PDO::FETCH_ASSOC); //me convierte el "resultado pdo" en un array de arrays asociativos de php
