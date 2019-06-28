@@ -10,4 +10,6 @@ class Movie extends Model
   {
     return $this->title . ' ' . $this->rating;
   }
+
+  
 }

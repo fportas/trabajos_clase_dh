@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Movie;
 
 class MoviesController extends Controller
 {
@@ -18,7 +19,7 @@ class MoviesController extends Controller
   ];
 
   foreach ($peliculas as $position => $movie) {
-    if ($id == ){
+    if ($id == $position){
       $movieFound = $movie;
     }
   }
@@ -27,9 +28,8 @@ class MoviesController extends Controller
 
   public function index()
   {
-    $movies = Movies::all();
-    return view('movies2');
+    $movies = Movie::all();
+    return view('movies', compact('movies'));
   }
 
-}
 }
