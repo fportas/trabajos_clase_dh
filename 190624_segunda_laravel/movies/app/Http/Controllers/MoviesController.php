@@ -25,4 +25,10 @@ class MoviesController extends Controller
   return $movieFound;
   }
 
+  public function index()
+  {
+    $actors = Movies::all();
+  }
+
+}
 }

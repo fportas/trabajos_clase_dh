@@ -16,3 +16,15 @@ Route::get('/', function () {
 });
 
 Route::get('/movies/detail/{id}', 'MoviesController@searchMovieById');
+
+
+Route::get('/actors', 'ActorsController@index');
+
+
+Route::get("/prueba", function () {
+  return "Hola";
+});
+
+Route::get('/peliculas', function () {
+    return view('movies');
+});
