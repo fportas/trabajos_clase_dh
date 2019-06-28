@@ -6,11 +6,11 @@
   </head>
   <body>
 
-    @include('navbar')
+
 
     @yield('mainContent')
 
-    @yield('secondaryContent')
+
 
   </body>
 </html>

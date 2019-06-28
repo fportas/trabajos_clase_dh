@@ -25,6 +25,6 @@ Route::get("/prueba", function () {
   return "Hola";
 });
 
-Route::get('/peliculas', function () {
-    return view('movies');
-});
+Route::get('/peliculas', 'MoviesController@index');
+
+Route::get('/actors', 'ActorsController@index');
