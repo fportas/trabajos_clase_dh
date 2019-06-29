@@ -10,6 +10,7 @@
 
 
     @yield('mainContent')
+    @yield('secondContent')
 
 
 
