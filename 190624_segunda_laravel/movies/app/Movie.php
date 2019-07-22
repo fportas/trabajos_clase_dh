@@ -11,5 +11,7 @@ class Movie extends Model
     return $this->title . ' ' . $this->rating;
   }
 
-  
+  protected $fillable = ['title', 'rating', 'awards', 'release_date', 'length', 'genre_id', 'poster'];
+
+
 }

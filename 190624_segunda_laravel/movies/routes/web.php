@@ -26,3 +26,6 @@ Route::get("/prueba", function () {
 });
 
 Route::get('/peliculas', 'MoviesController@index');
+
+
+Route::get('/crearpelicula', 'MoviesController@create');

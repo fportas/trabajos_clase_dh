@@ -32,4 +32,20 @@ class MoviesController extends Controller
     return view('movies', compact('movies'));
   }
 
+  public function store(Request $request)
+  {
+    $request->validate([
+      'title'=>'required',
+      'rating'=>'required | numeric | between:1,10',
+      'award'=>'required | numeric',
+      'release_date'=>'required',
+      'length'=>'required'
+    ],[
+      'required'=>'El campo es obligatorio',
+      'numeric'=>'El campo debe ser un número',
+      'between'=>'El rating debe ser un valor entre 0 y 10'
+    ]);
+    // return view('crearPelicula', compact('request'));
+  }
+
 }
